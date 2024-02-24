@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow and Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="gallery">
+    
+    <img class="thumbnail" src="4.jpg" alt="Thumbnail 1">
+    <img class="thumbnail" src="6.jpg" alt="Thumbnail 2">
+    <img class="thumbnail" src="10.jpg" alt="Thumbnail 3">
+    <img class="thumbnail" src="11.jpg" alt="Thumbnail 4">
+    <img class="thumbnail" src="12.jpg" alt="Thumbnail 5">
+    <img class="thumbnail" src="14.jpg" alt="Thumbnail 6">
+    <!-- Add more thumbnail images here -->
+  </div>
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="4.jpg" alt="Image 1">
+    </div>
+    <div class="slide fade">
+      <img src="6.jpg" alt="Image 2">
+    </div>
+    <div class="slide fade">
+      <img src="10.jpg" alt="Image 3">
+    </div>
+      <div class="slide fade">
+        <img src="11.jpg" alt="Image 4">
+      </div>
+      <div class="slide fade">
+        <img src="12.jpg" alt="Image 5">
+      </div>
+      <div class="slide fade">
+        <img src="14.jpg" alt="Image 6">
+      </div>
+    <!-- Add more slide images here -->
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
